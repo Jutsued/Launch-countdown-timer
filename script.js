@@ -1,7 +1,7 @@
-const daysEl = document.getElementById('days');
-const hoursEl = document.getElementById('hours');
-const minsEl = document.getElementById('mins');
-const secondsEl = document.getElementById('seconds');
+const daysEl = document.getElementById('day-counter');
+const hoursEl = document.getElementById('hours-counter');
+const minsEl = document.getElementById('mins-counter');
+const secondsEl = document.getElementById('seconds-counter');
 
 const newYears = '6 july 2021';
 

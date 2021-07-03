@@ -7,69 +7,72 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./style.css" type="text/css">
   <script src="./script.js" defer></script>
-  <title>Frontend Mentor | Launch countdown timer</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  
+  <title>Frontend Mentor | Launch countdown timer</title>  
 </head>
 <body>
-    <h2>WE'RE LAUNCHING SOON</h2>
+  <div class="container">
 
-    <div class="time-container">
-      <div class="time-el days-c">
-        <div class="box">
-        <p class="big-text" id='days'>01</p>
+      <div class="title">
+        <h1>WE'RE LAUNCHING SOON</h1>
       </div>
-        <span id="days-d">DAYS</span>
-    </div>
-    <div class="time-el hours-c">
-      <div class="box">
-        <p class="big-text" id='hours'>01</p>
-      </div> 
-      <span id="hours-h">HOURS</span>
-   </div>
-    <div class="time-el mins-c">
-      <div class="box">
-        <p class="big-text" id='mins'>01</p>
+      
+      <div class="time-container">
+          <div class="time-el">
+        <div class="time-num">
+        <p id='day-counter'>14</p>
       </div>
-      <span id="mins-m">MINUTES</span>
-    </div>
-    <div class="time-el seconds-c">
-      <div class="box">
-        <p class="big-text" id='seconds'>01</p>
+      <div class="time-label">
+        <p class='days'>days</p>
       </div>
-      <span id="seconds-s">SECONDS</span>
     </div>
-    <!-- <p class="subtitles days-sub">DAYS</p>
-    <p class="subtitles hours-sub">HOURS</p>
-    <p class="subtitles mins-sub">MINS</p>
-    <p class="subtitles seconds-sub">SECONDS</p> -->
 
-  
-  <!-- <div class="subtitles">
-  <span>DAYS</span>
-  <span>HOURS</span>
-  <span>MINS</span>
-  <span>SECONDS</span>
-  </div> -->
-  
-  
+    <div class="time-el">
+        <div class="time-num">
+        <p id='hours-counter'>01</p>
+      </div>
+      <div class="time-label">
+        <p id='hours'>hours</p>
+      </div>
+    </div>
+
+    <div class="time-el">
+      <div class="time-num">
+      <p id='mins-counter'>01</p>
+    </div>
+    <div class="time-label">
+      <p id='mins'>mins</p>
+    </div>
+  </div>
+
+  <div class="time-el">
+    <div class="time-num">
+    <p id='seconds-counter'>01</p>
+  </div>
+  <div class="time-label">
+    <p id='seconds'>seconds</p>
+  </div>
+</div>
+
+</div>
+</div> 
   
   <footer>
-    <div class="social">
-      <a href=""  id="facebook"> <img class="fab" src="./images/icon-facebook.svg"  /> </a>
-      <a href="" id="pinterest"> <img class="fab" src="./images/icon-pinterest.svg"/> </a>
-      <a href="" id="instagram"> <img class="fab" src="./images/icon-instagram.svg"/> </a>
+    <ul class="social">
+      <li>
+        <img src="./images/icon-facebook.svg" alt="facebook-img" class="fac">
+      </li>
 
+      <li>
+        <img src="./images/icon-pinterest.svg" alt="pinterest-img">
+      </li>
 
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="https://github.com/Jutsued">Pablo A Bonilla</a>.
-      </div>
-    </div>
-    
-    
+      <li>
+        <img src="./images/icon-instagram.svg" alt="instagram-img">
+      </li>
+    </ul>
+    <span>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/Jutsued">Pablo A Bonilla</a></span>
   </footer>
-</div>
+
 </body>
 </html>
